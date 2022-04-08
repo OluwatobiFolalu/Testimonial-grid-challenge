@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://oluwatobifolalu.github.io/Testimonial-grid-challenge/)
 
 ## My process
 This is too bothersome to explain. Please, just take a look at the code, it's quite straightforward. Or, you can check out tbsankara's tutorial video on Youtube. Thanks

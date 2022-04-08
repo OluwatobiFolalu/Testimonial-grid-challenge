@@ -11,18 +11,18 @@ body{
     line-height: 1.3em;
 }
 .container {
-    margin: 20px;
+    margin: 15px 20px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
 }
 .cards{
-    padding: 20px 30px;
+    padding: 20px 25px;
     background-color: purple;
     border-radius: 10px;
     color: hsl(0, 0%, 81%);
     position: relative;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .cards.Daniel{
     background-color:  hsl(263, 55%, 52%);
@@ -52,13 +52,17 @@ body{
     align-items: center;
 }
 .cards .image img{
-    width: 80%;
+    width: 50%;
     border-radius: 50%;
     margin-right: 0px;
 }
 .cards h4{
-    margin: 20px 0 20px;
+    margin: 15px 0 20px;
     font-size: 20px;
+}
+.cards.Daniel h4{
+    position: relative;
+    z-index: 1;
 }
 .cards p{
     font-size: 13px;
@@ -72,7 +76,7 @@ body{
     .container{
         grid-template-columns: repeat(4, 1fr);
         max-width: 1100px;
-        margin: 70px auto;
+        margin: 60px auto;
     }
     .cards.Daniel{
         grid-column: 1/3;
